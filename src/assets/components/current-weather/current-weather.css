@@ -4,11 +4,12 @@
     box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
     color: #fff;
     background-color: #333;
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
     padding: 0 20px 20px 20px;
 }
 
-.top, bottom {
+.top,
+.bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +25,7 @@
 
 .weather-description {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1;
     margin: 0;
 }
@@ -40,22 +41,30 @@
     letter-spacing: -5px;
     margin: 10px 0;
 }
-.details{
+
+.details {
     width: 100%;
     padding-left: 20px;
 }
-.parameter-row{
+
+.parameter-row {
     display: flex;
     justify-content: space-between;
 }
-.parameter-label{
+
+.parameter-label {
     text-align: left;
     font-weight: 400;
     font-size: 12px;
 }
-.parameter-value{
+
+.parameter-value {
     text-align: right;
     font-weight: 600;
     font-size: 12px;
-    margin-right: 20px;
+}
+
+.parameter-label.top {
+    border-bottom: 1.5px solid #fff;
+    margin-bottom: 2px;
 }
